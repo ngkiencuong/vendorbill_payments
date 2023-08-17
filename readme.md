@@ -47,13 +47,13 @@ This SRS document describes the functional requirements and test conditions for 
 
 ### **3. Test Conditions:**
 
-- 1. A bill sent by a vendor via email should be accessible to the junior accountant for inspection.
-- 2. Discrepancy reasons can be edited and saved successfully in the Odoo list view.
-- 3. Selecting a discrepancy reason should integrate it into the mail template correctly.
-- 4. After sending the discrepancy email, the respective vendor bill status should update to "to be verified."
-- 5. The favorite "bills payable this week" should correctly display all vendor bills eligible for payment.
-- 6. The SEPA XML transfer file generation should complete without errors and should be in the correct format for bank uploads.
-- 7. The module should be compatible with Odoo Version 16 Enterprise without causing any conflicts with existing functionality.
+1. A bill sent by a vendor via email should be accessible to the junior accountant for inspection.
+2. Discrepancy reasons can be edited and saved successfully in the Odoo list view.
+3. Selecting a discrepancy reason should integrate it into the mail template correctly.
+4. After sending the discrepancy email, the respective vendor bill status should update to "to be verified."
+5. The favorite "bills payable this week" should correctly display all vendor bills eligible for payment.
+6. The SEPA XML transfer file generation should complete without errors and should be in the correct format for bank uploads.
+7. The module should be compatible with Odoo Version 16 Enterprise without causing any conflicts with existing functionality.
 
 ---
 
