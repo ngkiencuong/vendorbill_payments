@@ -31,17 +31,19 @@ This SRS document describes the functional requirements and test conditions for 
   8. Proof of delivery is not readable
   9. Proof of delivery is missing
 
-- **2.2.2.** The reasons are available in an Odoo list-view under the vendor bill management menu, and can be edited directly on the list view.
-- **2.2.3.** The list is multi-lingual compatible.
-- **2.2.4.** After selecting the discrepancy reason(s), the accountant can launch an email wizard, which incorporates these reasons into a predefined mail template.
-- **2.2.5.** Once the discrepancy email is sent to the vendor, Odoo automatically marks the respective vendor bill as "to be verified."
+- The reasons are available in an Odoo list-view under the vendor bill management menu, and can be edited directly on the list view.
+- The list is multi-lingual compatible.
+- After selecting the discrepancy reason(s), the accountant can launch an email wizard, which incorporates these reasons into a predefined mail template.
+- Once the discrepancy email is sent to the vendor, Odoo automatically marks the respective vendor bill as "to be verified."
 
 #### **2.3. SEPA XML Transfer File Generation:**
 
-- **2.3.1.** All vendor bills ready for payment are listed under a favorite named "bills payable this week."
-- **2.3.2.** A senior accountant can select multiple bills from this list view.
-- **2.3.3.** Upon selection, the senior accountant can generate a single SEPA XML transfer file via the Action menu.
-- **2.3.4.** This file can be directly uploaded to the company's online banking portal to initiate payments after necessary bank authentication.
+- All vendor bills ready for payment are listed under a favorite named "bills payable this week."
+- A senior accountant can select multiple bills from this list view.
+- Upon selection, the senior accountant can generate a single SEPA XML transfer file via the Action menu.
+- This file can be directly uploaded to the company's online banking portal to initiate payments after necessary bank authentication.
+
+Implement the SEPA XML payment method modularly in a separate class-file. There will be other payment modes possible in future, ex. finapi.io etc.
 
 ---
 
