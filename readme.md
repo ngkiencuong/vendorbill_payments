@@ -1,6 +1,4 @@
-# Software Requirements Specification (SRS)
-
-## **Vendor Payment Enhancement Module for Odoo Version 16 Enterprise**
+#Vendor Payment Enhancement Module for Odoo Version 16 Enterprise
 
 ---
 
