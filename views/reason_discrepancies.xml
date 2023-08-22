@@ -1,0 +1,24 @@
+<odoo>
+    <record id="reason_discrepancies_view_tree" model="ir.ui.view">
+        <field name="name">reason.discrepancies.view.tree</field>
+        <field name="model">reason.discrepancies</field>
+        <field name="arch" type="xml">
+            <tree editable="top" create="1" delete="1" string="Reasons for Discrepancies">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="reason_discrepancies_action">
+        <field name="name">Reasons for Discrepancies</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">reason.discrepancies</field>
+    </record>
+
+    <menuitem
+        id="reason_discrepancies_menu"
+        parent="account.menu_finance_payables"
+        action="reason_discrepancies_action"
+        sequence="100"
+    />
+</odoo>

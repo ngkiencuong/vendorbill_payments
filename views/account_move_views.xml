@@ -23,7 +23,7 @@
                 <attribute name="multi_edit">1</attribute>
             </xpath>
             <xpath expr="//field[@name='state']" position="after">
-                <field name="reasons_discrepancies"/>
+                <field name="reasons_discrpc_id"/>
             </xpath>
         </field>
     </record>
@@ -34,9 +34,12 @@
         <field name="inherit_id" ref="account.view_move_form"/>
         <field name="arch" type="xml">
             <xpath expr="//page[@name='other_info']" position="after">
-                <page id="reasons_discrepancies_tab" string="Reasons for discrepancies" name="reasons_discrepancies">
+                <page id="reasons_discrepancies_tab" string="Reasons for Discrepancies" name="reasons_discrepancies">
                     <group>
-                        <field name="reasons_discrepancies"/>
+                        <group>
+                            <field name="reasons_discrpc_id"/>
+                        </group>
+                        <group></group>
                     </group>
                 </page>
             </xpath>
