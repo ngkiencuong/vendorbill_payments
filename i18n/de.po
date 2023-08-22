@@ -1,0 +1,10 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* vendorbill_payments
+#
+#. module: vendorbill_payments
+#: model:ir.ui.menu,name:vendorbill_payments.reason_discrepancies_menu
+#: model_terms:ir.ui.view,arch_db:vendorbill_payments.reason_discrepancies_view_tree
+#: model_terms:ir.ui.view,arch_db:vendorbill_payments.view_move_form_inherit
+msgid "Reasons for Discrepancies"
+msgstr ""
