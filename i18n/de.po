@@ -3,8 +3,72 @@
 # 	* vendorbill_payments
 #
 #. module: vendorbill_payments
+#: model_terms:ir.ui.view,arch_db:vendorbill_payments.view_account_invoice_filter_inherit
+msgid "Bills payable this week"
+msgstr ""
+
+#. module: vendorbill_payments
+#: code:addons/vendorbill_payments/models/reason_discrepancies.py:0
+#, python-format
+msgid "Company address is false"
+msgstr ""
+
+#. module: vendorbill_payments
+#: code:addons/vendorbill_payments/models/reason_discrepancies.py:0
+#, python-format
+msgid "Not correct VAT ID"
+msgstr ""
+
+#. module: vendorbill_payments
+#: code:addons/vendorbill_payments/models/reason_discrepancies.py:0
+#, python-format
+msgid "Proof of delivery is false"
+msgstr ""
+
+#. module: vendorbill_payments
+#: code:addons/vendorbill_payments/models/reason_discrepancies.py:0
+#, python-format
+msgid "Proof of delivery is missing"
+msgstr ""
+
+#. module: vendorbill_payments
+#: code:addons/vendorbill_payments/models/reason_discrepancies.py:0
+#, python-format
+msgid "Proof of delivery is not readable"
+msgstr ""
+
+#. module: vendorbill_payments
+#: model:ir.actions.act_window,name:vendorbill_payments.reason_discrepancies_action
+#: model:ir.model,name:vendorbill_payments.model_reason_discrepancies
+#: model:ir.model.fields,field_description:vendorbill_payments.field_account_bank_statement_line__reasons_discrpc_id
+#: model:ir.model.fields,field_description:vendorbill_payments.field_account_move__reasons_discrpc_id
+#: model:ir.model.fields,field_description:vendorbill_payments.field_account_payment__reasons_discrpc_id
 #: model:ir.ui.menu,name:vendorbill_payments.reason_discrepancies_menu
 #: model_terms:ir.ui.view,arch_db:vendorbill_payments.reason_discrepancies_view_tree
 #: model_terms:ir.ui.view,arch_db:vendorbill_payments.view_move_form_inherit
 msgid "Reasons for Discrepancies"
+msgstr ""
+
+#. module: vendorbill_payments
+#: code:addons/vendorbill_payments/models/reason_discrepancies.py:0
+#, python-format
+msgid "The invoice must be made out in euros"
+msgstr ""
+
+#. module: vendorbill_payments
+#: code:addons/vendorbill_payments/models/reason_discrepancies.py:0
+#, python-format
+msgid "The invoice should have a 0% VAT rate, reversed charge"
+msgstr ""
+
+#. module: vendorbill_payments
+#: code:addons/vendorbill_payments/models/reason_discrepancies.py:0
+#, python-format
+msgid "The invoice should have a 19% VAT rate"
+msgstr ""
+
+#. module: vendorbill_payments
+#: code:addons/vendorbill_payments/models/reason_discrepancies.py:0
+#, python-format
+msgid "Wrong invoice amount"
 msgstr ""

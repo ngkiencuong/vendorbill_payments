@@ -1,12 +1,12 @@
 {
     'name': "Vendor Payment Enhancement",
-    'summary': "Vendor Payment Enhancement Module for Odoo Version 16 Enterprise",
+    'summary': "Vendor Payment Enhancement Module",
     'version': '16.0.1.0.0',
     'author': "Simplify-ERP™",
     'category': 'Accounting',
     'website': 'https://simplify-erp.com',
     'license': 'LGPL-3',
-    'depends': ["account_accountant", "account_sepa"],
+    'depends': ["account", "account_banking_sepa_credit_transfer"],
     'data': [
         'security/ir.model.access.csv',
         'data/data.xml',
